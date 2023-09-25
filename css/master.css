@@ -1,4 +1,28 @@
 body {
-    background-color: #d7d7d7;
-    color: black;
+  background-color: #93a6e5;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #2196f3;
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #2196f3;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
