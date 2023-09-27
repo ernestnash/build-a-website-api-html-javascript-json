@@ -1,28 +1,76 @@
 body {
-  background-color: #93a6e5;
+  background: #97e7f5;
   color: black;
   margin: 0;
   padding: 0;
 }
-
-.header {
-  background: #2196f3;
-  height: 4rem;
+.header, .footer {
   width: 100%;
   position: absolute;
-  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #01377d;
+  color: white;
+}
+.header {
+  height: 4rem;
+  top: 0;
 }
 
 .footer {
-  background: #2196f3;
   height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   bottom: 0;
-  width: 100%;
+}
+
+
+.main {
+  background:#fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border: 2px solid rgb(66, 66, 66);
+  border-radius: 20px;
+  width: 45%;
+  height: auto;
+}
+
+.btn {
+  background: #01377d;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.Dataset {
+  width: 450px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+}
+
+.container {
+  width:90%;
+  height: 450px;
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  background: #009dd1;
+}
+
+.container h3 {
+  color: white;
+  position: absolute;
+  left: 40%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
